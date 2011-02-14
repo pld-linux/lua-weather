@@ -7,6 +7,7 @@ Group:		Development/Languages
 Source0:	http://carme.pld-linux.org/~uzsolt/sources/%{name}-%{version}.tar.xz
 # Source0-md5:	4b44a6203172736940e299377d7d5cd3
 URL:		http://solitudo.net/software/lua/weatherlib/
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
